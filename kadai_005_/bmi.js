@@ -1,10 +1,8 @@
 // 変数の宣言
-let userWeight;
+let userWeight=68;
 
-userWeight=68;
+let userHeight=1.7;
 
-let userHeight;
+let bmi= userWeight/(userHeight*userHeight);
 
-userHeight=1.7;
-
-console.log(userWeight/(userHeight*userHeight));
+console.log(bmi);
